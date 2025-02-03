@@ -31,3 +31,4 @@ function info(index) {
 function search(query) {
     return clients.filter(client => client.name.toLowerCase().includes(query.toLowerCase()));
 }
+
